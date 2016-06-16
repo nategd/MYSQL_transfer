@@ -15,9 +15,9 @@ Alter anwhere #EDIT is present
 
    DB is the name of your database
    
-   HOST is the name of the host to which you are trying to connect to
+   HOST is the name of the host to which you are trying to connect to (user@example.com)
    
-   PATH is only to be used if you need to cd to a mysql executable 
+   PATH is only to be used if you need to cd to a mysql executable
    
 open terminal and enter the next two commands
 
