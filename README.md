@@ -7,7 +7,7 @@ If this doesnt work for some reason try adding your IP to cPanel if you are usin
 
 http://support.hostgator.com/articles/cpanel/how-to-whitelist-your-ip-in-cpanel-for-remote-mysql-access
 
-CAUTION THIS OVERWRITES YOUR LOCAL VERSION OF THE DATABASE\n
+CAUTION THIS OVERWRITES YOUR LOCAL VERSION OF THE DATABASE
 
 To use:
 
