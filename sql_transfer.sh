@@ -1,11 +1,11 @@
 #!/bin/bash
-#This file will transfer the LIVE database to the MAMP local host
+#This file will transfer the LIVE database to the local host
 # Created by Nathan G. Donaldson
 
 
 DB=#EDIT
 HOST=#EDIT
-PATH=~/  #EDIT OPTIONAL
+PATH=~/  #EDIT OPTIONAL But required for MAMP
 cd $PATH
 
 ssh -t HOST "mysqldump $DB" > $DB.sql
@@ -20,3 +20,4 @@ source $DB.sql
 QUERY_INPUT
 echo "Deleting the temporary $DB file"
 rm $DB.sql
+osascript -e 'display notification "The Database was successfully ported to local" with title "mysqldump complete"'
